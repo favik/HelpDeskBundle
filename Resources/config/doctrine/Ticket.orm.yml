@@ -5,8 +5,8 @@ Liuggio\HelpDeskBundle\Entity\Ticket:
   manyToOne:
     state:
       targetEntity: TicketState
-#    createdBy:
-#      targetEntity: Tvision\Bundle\UserBundle\Entity\User
+    createdBy:
+      targetEntity: Tvision\Bundle\UserBundle\Entity\User
     category:
       targetEntity: Category
   oneToMany:
